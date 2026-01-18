@@ -25,6 +25,12 @@ Console.WriteLine("The length of the string"+length);
         Console.WriteLine(name_Rep);
         
     }
+    public static void insert_String()
+    {
+        string name= "Mahadev Gaikwad";
+        string names=name.Insert(0,"Jyoti");
+        Console.WriteLine(names);
+    }
    public  static void if_Upper_Make_lower_if_capital_Make_Upper()
     {
         string name="GaiKwaD";

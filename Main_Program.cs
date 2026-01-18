@@ -13,5 +13,6 @@ public class Main_Program
       Program5.if_Upper_Make_lower_if_capital_Make_Upper();
       Program5.string_Method();
       Program5.string_Replace();
+      Program5.insert_String();
     }
 }
