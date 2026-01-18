@@ -15,7 +15,7 @@ public class DataType
 		int a2 = int.Parse(Console.ReadLine());
 		Double b2 = Double.Parse(Console.ReadLine());
 		string s2 = Convert.ToString(Console.ReadLine());
-
+       string name_Of_city=Console.ReadLine();
 		int sum = a + a2;
 		double sum2 = b + b2;
 		string res = s + s2;
@@ -24,6 +24,7 @@ public class DataType
 		Console.WriteLine((b + b2).ToString("0.0"));
 
 		Console.WriteLine(res);
+        Console.WriteLine(name_Of_city);
 
 	}
 }
