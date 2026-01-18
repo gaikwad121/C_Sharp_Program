@@ -12,7 +12,7 @@ namespace CSharp_Pratice_Codes
 		{
 			string a = "123";
 			int num = int.Parse(a); // num = 123
-			Console.WriteLine(num);
+			//Console.WriteLine(num);
 			Console.WriteLine(num.GetType());
 		}
 	}

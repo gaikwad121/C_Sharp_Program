@@ -12,3 +12,4 @@ C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\refint\MyProjectDemo.dll
 C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.pdb
 C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.genruntimeconfig.cache
 C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\ref\MyProjectDemo.dll
+C:\Users\JYOTI M GAIKWAD\MyProjectDemo\obj\Debug\net9.0\MyProjectDemo.sourcelink.json
