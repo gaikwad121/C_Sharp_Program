@@ -12,5 +12,6 @@ public class Main_Program
       MyProjectDemo.Program5.Conv_Upper_Lower_Char();
       Program5.if_Upper_Make_lower_if_capital_Make_Upper();
       Program5.string_Method();
+      Program5.string_Replace();
     }
 }

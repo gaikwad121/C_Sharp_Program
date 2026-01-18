@@ -18,6 +18,13 @@ Console.WriteLine("The length of the string"+length);
         Console.WriteLine(upper);
         Console.WriteLine(lower);
     }
+    public static void string_Replace()
+    {
+        string name="jyMti";
+        string name_Rep=name.Replace('M','o');
+        Console.WriteLine(name_Rep);
+        
+    }
    public  static void if_Upper_Make_lower_if_capital_Make_Upper()
     {
         string name="GaiKwaD";
