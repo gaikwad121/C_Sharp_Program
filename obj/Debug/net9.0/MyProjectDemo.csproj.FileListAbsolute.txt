@@ -1,0 +1,14 @@
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\bin\Debug\net9.0\MyProjectDemo.exe
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\bin\Debug\net9.0\MyProjectDemo.deps.json
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\bin\Debug\net9.0\MyProjectDemo.runtimeconfig.json
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\bin\Debug\net9.0\MyProjectDemo.dll
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\bin\Debug\net9.0\MyProjectDemo.pdb
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.AssemblyInfoInputs.cache
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.AssemblyInfo.cs
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.csproj.CoreCompileInputs.cache
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.dll
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\refint\MyProjectDemo.dll
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.pdb
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\MyProjectDemo.genruntimeconfig.cache
+C:\Users\JYOTI M GAIKWAD\MyprojectDemo\obj\Debug\net9.0\ref\MyProjectDemo.dll
