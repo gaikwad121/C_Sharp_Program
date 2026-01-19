@@ -1,4 +1,6 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
 namespace MyProjectDemo;
 
 public class Program5
@@ -52,8 +54,44 @@ Console.WriteLine("The length of the string"+length);
         }
                 Console.WriteLine(new string (ch));
         }
-        
-            
+        public static void startWithEndWith(){
+        string [] names={"jyoti","Aishwarya","Sneha","Dharati","Aaradhya","Aaditi","Nanda"};
+            foreach(string name in names)
+        {
+            if (name.StartsWith("A") && !name.Equals("Aishwarya"))
+            {
+                string child=name;
+                        Console.WriteLine("child name is : "+child);
+
+            }
+            else if(name.StartsWith("N") && name.EndsWith("a"))
+            {
+                string Mother=name;
+                        Console.WriteLine("Mother name is : "+Mother);
+
+            }
+            else
+            {
+                string sisterName=name;
+                        Console.WriteLine("Sister name is :"+sisterName);
+
+            }
         }
-    
+        }
+public static void trimFun()
+    {
+      // Original string with extra spaces
+        string para = "   this is a golden  chance to   focus on your    work   ";
+        
+        // Trim removes spaces from start and end
+        string trimmedPara = para.Trim();
+        Console.WriteLine("After Trim():");
+        Console.WriteLine(trimmedPara);
+
+        // Regex to replace multiple spaces inside with a single space
+        string cleanedPara = Regex.Replace(trimmedPara, @"\s+", " ");
+        Console.WriteLine("\nAfter removing extra spaces between words:");
+        Console.WriteLine(cleanedPara);
+        }
+}
 
