@@ -14,7 +14,10 @@ public class Main_Program
       Program5.string_Method();
       Program5.string_Replace();
       Program5.insert_String();*/
-      Program5.startWithEndWith();
-      Program5.trimFun();
+     // Program5.startWithEndWith();
+     // Program5.trimFun();
+    // Program5.trimFunctions();
+  //  Program5.substringConcept();
+  Program5.checkWordEvenOdd();
     }
 }

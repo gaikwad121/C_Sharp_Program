@@ -93,5 +93,54 @@ public static void trimFun()
         Console.WriteLine("\nAfter removing extra spaces between words:");
         Console.WriteLine(cleanedPara);
         }
-}
 
+// in trim we have diffrent methods like a trim start with trim end with 
+public static void trimFunctions()
+    {
+        string para ="     this is a golden chance to focus on your career and your work dont waste your time        ";
+        string startSpace=para.TrimStart();
+        Console.WriteLine("using the TrimStart we can trim the strating spaces in a line "+startSpace);
+        string endSpace=para.TrimEnd();
+                Console.WriteLine("using the TrimStart we can trim the strating spaces in a line "+endSpace);
+               
+
+
+    }
+
+
+// substring  this will gave you the substring of a string(word) we will not get by character
+// the output of a follwoing code is : jyoti
+public static void substringConcept()
+    {
+        string sub="hello jyoti Mahadev gaikwad how are you how is your prepartion going buddy";
+        string con=sub.Substring(6,6);
+        Console.WriteLine(con);
+    }
+    // we use split method in string for separting a word from sentaces 
+// ex : hello, jyoti,mahadev ,gaikwad,how ,are 
+    public static void checkWordEvenOdd()
+    {
+        string sub="hello jyoti Mahadev gaikwad how are you how is your prepartion going buddy";
+        string [] words=sub.Split(" ");
+        string evenword;
+        string oddWord;
+        foreach(string word in words)
+        {
+            int length=word.Length;
+            if (length % 2 == 0)
+            {
+                evenword=word;
+                Console.Write("the word are even : ");
+                Console.WriteLine(evenword+" ");
+            }
+            else
+            {
+                oddWord=word;
+                Console.Write("the word are odd : ");
+                Console.WriteLine(oddWord+" ");
+            }
+        }
+    
+
+    }
+}
