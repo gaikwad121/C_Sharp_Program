@@ -19,6 +19,9 @@ public class Main_Program
     // Program5.trimFunctions();
   //  Program5.substringConcept();
   //Program5.checkWordEvenOdd();
-  Program5.string_Formating();
+  //Program5.string_Formating();
+  //Program5.string_Oper();
+  //Program5.stringBuilder_Program();
+  Program5.logicOperator();
     }
 }

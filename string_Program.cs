@@ -1,5 +1,6 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Text.RegularExpressions;
 namespace MyProjectDemo;
 
@@ -153,4 +154,41 @@ public static void string_Formating()
        int age=25;
        long salary=123467;
        Console.WriteLine("Hi ! {0} your age is {1} and your per month salary is {2:c}",name,age,salary) ;
-    }}
+    }
+    public static void string_Oper()
+    {
+        int age=25;
+        Console.WriteLine($"Your age is {age}");
+        // for the // and passing file path
+        Console.WriteLine("\\");
+        Console.WriteLine(@"D:\program");
+    }
+
+// stringBuilder
+public static void stringBuilder_Program()
+    {
+    
+        string city="Solapur";
+        string dsr="hello jyoti mahadev Gaikwad ! ,";
+        StringBuilder str=new();
+        Console.WriteLine(str.Append("How are you"));
+        Console.WriteLine(str.Length);
+        Console.WriteLine(str.Capacity);
+        // AppendFormating
+        str.AppendFormat("{0} is",city+dsr);
+Console.WriteLine(str);
+string formApp = str.ToString();
+Console.WriteLine(formApp);
+// AppendLine
+str.AppendLine(dsr);
+Console.WriteLine(dsr);
+    }
+    // LOGICAL OPERTAORE
+    public static void logicOperator()
+    {
+        bool b=true&&true;
+        Console.WriteLine(b);
+        bool c= false || true;
+        Console.WriteLine(c);
+    }
+}
