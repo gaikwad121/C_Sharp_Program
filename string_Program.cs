@@ -143,4 +143,14 @@ public static void substringConcept()
     
 
     }
-}
+
+
+// string formating : we use the string formating for like if want print : pleasen check following code exmaple for this
+
+public static void string_Formating()
+    {
+       string name="jyoti";
+       int age=25;
+       long salary=123467;
+       Console.WriteLine("Hi ! {0} your age is {1} and your per month salary is {2:c}",name,age,salary) ;
+    }}
