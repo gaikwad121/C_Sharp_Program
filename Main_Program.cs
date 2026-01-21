@@ -35,5 +35,14 @@ public class Main_Program
  star_Pattern.hellow_Pattern();
  star_Pattern.Inv_periomid();
  star_Pattern.ButterFly();
+ // practce important program
+
+ double meal_cost = Convert.ToDouble(Console.ReadLine().Trim());
+
+        int tip_percent = Convert.ToInt32(Console.ReadLine().Trim());
+
+        int tax_percent = Convert.ToInt32(Console.ReadLine().Trim());
+
+        Result.solve(meal_cost, tip_percent, tax_percent);
     }
 }
