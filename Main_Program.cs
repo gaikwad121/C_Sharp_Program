@@ -22,6 +22,15 @@ public class Main_Program
   //Program5.string_Formating();
   //Program5.string_Oper();
   //Program5.stringBuilder_Program();
-  Program5.logicOperator();
+ // Program5.logicOperator();
+ //star_Pattern.invert_Triangle();
+ star_Pattern.inv_Triangle();
+ star_Pattern.Inv_Triangle();
+ star_Pattern.number_Triangle();
+ star_Pattern.Number_Triangle();
+ star_Pattern.Num_Traingle();
+ star_Pattern.num_Triangle();
+ star_Pattern.star_Diamond();
+ star_Pattern.triangle_Pattern();
     }
 }
