@@ -221,5 +221,173 @@ public static void Inv_Triangle()
                 Console.WriteLine();
             }
         }
+    
+
+/* Output
+
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+=============================================================================================================================================
+*/
+public static void hellow_Pattern()
+    {
+        for(int i = 1; i <= num; i++)
+        {
+            for(int j = 1; j <= num; j++)
+            {
+                if(j==1 || i==1 || j==num || i == num)
+                {
+                    Console.Write("*");
+                }
+                else
+                {
+                Console.Write(" ");
+                }
+            }
+                Console.WriteLine();
+            }
+        }
+
+/* Output 
+
+
+    *
+   ***
+  *****
+ *******
+=======================================================================================================================================================
+*/
+public static void periomid()
+    {
+        for(int i = 1; i <= num; i++)
+        {
+            for(int j = 1; j <= num - i; j++)
+            {
+                Console.Write(" ");
+            }
+            for(int j = 1; j <= i; j++)
+            {
+                Console.Write("*");
+            }
+            Console.WriteLine();
+        }
+        }
+    
+/* Output
+
+*******
+ *****
+  ***
+   *
+==========================================================================================================================================================================
+*/
+
+public static void Inv_periomid()
+    {
+        for(int i = num; i >=1; i--)
+        {
+            for(int j = 1; j <= num - i; j++)
+            {
+Console.Write(" ");                
+            }
+            for(int j = 1; j <= i; j++)
+            {
+        Console.Write("*");
+            }
+            Console.WriteLine();
+        }
     }
+
+/*
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+=====================================================================================================================================
+*/
+public static void n_triangle()
+    {
+        int count=1;
+        for(int i = 1; i <= 4; i++)
+        {
+        for(int j = 1; j <= i; j++)
+            {
+               Console.Write(count) ;
+            }
+            Console.WriteLine();
+        }
+        }
+    
+    /*
+Output
+
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+
+============================================================================================
+*/
+public static void ButterFly()
+    {
+       for(int i=1;i<=num;i++)
+        {
+        for(int j = 1; j <= i; j++)
+            {
+                Console.Write("*");
+            }
+            for(int j=1;j<=2*(num-i);j++){
+            Console.Write(" ");
+        }
+        
+        for(int j = 1; j <= i; j++)
+            {
+        Console.Write("*");
+            }
+            Console.WriteLine();
+        }
+      
+       for(int i=num;i>=1;i--)
+        {
+        for(int j = 1; j <= i; j++)
+            {
+                Console.Write("*");
+            }
+            for(int j=1;j<=2*(num-i);j++){
+            Console.Write(" ");
+        }
+        
+        for(int j = 1; j <= i; j++)
+            {
+        Console.Write("*");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
